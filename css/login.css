@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.illust {
+  width: 322px;
+  height: 343px;
+  border-radius: 20px;
+  background-color: var(--main-color);
+  background-image: url('../assets/login_illust.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center 120%;
+  
+}
+
+.slogan {
+  margin-top: 14%;
+  font-size: 24px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 1);
+}
+
+.info {
+  margin-top: 10%;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(81, 81, 81, 1);
+}
+
+.login_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 12px;
+  width: 311px;
+  height: 54px;
+  margin-top: 56%;
+  background-color: rgba(254, 229, 0, 1);
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(38, 40, 53, 1);
+}
