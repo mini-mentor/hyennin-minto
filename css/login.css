@@ -1,14 +1,15 @@
 .container {
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin-top: 8px;
 }
 
 .illust {
-  width: 322px;
-  height: 343px;
+  width: 89.444vw;
+  height: 42.750vh;
   border-radius: 20px;
   background-color: var(--main-color);
   background-image: url('../assets/login_illust.svg');
@@ -39,7 +40,7 @@
   column-gap: 12px;
   width: 311px;
   height: 54px;
-  margin-top: 56%;
+  margin-bottom: 48px;
   background-color: rgba(254, 229, 0, 1);
   border-radius: 4px;
   font-size: 16px;
