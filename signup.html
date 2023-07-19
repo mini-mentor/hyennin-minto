@@ -8,6 +8,29 @@
   <link rel="stylesheet" href="./css/signup.css">
 </head>
 <body>
-  
+  <div class="container">
+    <div class="title">문자인증 1번만 하면<br>가입이 완료돼요!</div>
+    <form class="form">
+      <div class="signup_container">
+        <input class="input" type="text" placeholder="이름을 입력하세요"/>
+        <div class="input_container">
+          <input class="input" type="tel" placeholder="전화번호를 입력하세요"/>
+          <button class="auth_btn">인증 받기</button>
+        </div>
+        <input class="input" type="number" placeholder="인증번호를 입력하세요"/>
+        <div class="radio_container">
+          <div class="radio">
+            <input id="female" type="radio" name="성별" value="female" checked>
+            <label for="female">여자</label>
+          </div>
+          <div class="radio">
+            <input id="male" type="radio" name="성별" value="male">
+            <label for="male">남자</label>
+          </div>
+        </div>
+      </div>
+      <button class="next_btn">다음</button>
+    </form>
+  </div>
 </body>
 </html>
