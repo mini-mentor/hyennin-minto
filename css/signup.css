@@ -32,11 +32,24 @@
   row-gap: 13px;
 }
 
-.input_container {
+.phone_number_box {
   width: 100%;
   display: flex;
   justify-content: space-between;
   column-gap: 8px;
+}
+
+.auth_number_box {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.timer {
+  padding-right: 18px;
+  font-size: 14px;
+  color: rgba(255, 0, 0, 1);
 }
 
 .input {
@@ -61,12 +74,10 @@
   white-space: nowrap;
 }
 
-.next_btn {
-  width: 100%;
-  height: 54px;
-  border-radius: 10px;
-  background-color: rgba(0, 210, 189, 1);
-  color: rgba(255, 255, 255, 1);
+.timer {
+  position: absolute;
+  font-size: 14px;
+  color: rgba(255, 0, 0, 1);
 }
 
 .radio_container {
@@ -99,4 +110,12 @@
 
 .radio input[type=radio]:checked + label {
   border: 1.3px solid rgba(0, 210, 189, 1);
+}
+
+.next_btn {
+  width: 100%;
+  height: 54px;
+  border-radius: 10px;
+  background-color: rgba(0, 210, 189, 1);
+  color: rgba(255, 255, 255, 1);
 }
