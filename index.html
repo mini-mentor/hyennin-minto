@@ -6,14 +6,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Minto</title>
   <link rel="stylesheet" href="./css/default.css">
-  <link rel="stylesheet" href="./css/nav.css">
+  <link rel="stylesheet" href="./css/bottomNavigation.css">
+  <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-  <nav>
+  <main>
+    <div class="search">
+      <input type="text" placeholder="무엇이 필요하시나요?"/>
+      <img src="./assets/search.svg" alt="Search"/>
+    </div>
+    <div class="apply">
+      <a class="menti">
+        <span>멘티로<br>지원하기</span>
+        <img src="./assets/menti_illust.svg" alt="Menti"/>
+      </a>
+      <a class="mento">
+        <span>멘토로<br>지원하기</span>
+        <img src="./assets/mento_illust.svg" alt="Mento"/>
+      </a>
+    </div>
+    <article>
+      <div class="title">
+        제목
+      </div>
+      <div class="content">
+        들어갈 컨텐츠를 자유롭게 꾸며주세요!
+      </div>
+    </article>
+    <article>
+      <div class="title">
+        제목
+      </div>
+      <div class="content">
+        들어갈 컨텐츠를 자유롭게 꾸며주세요!
+      </div>
+    </article>
+    <article>
+      <div class="title">
+        제목
+      </div>
+      <div class="content">
+        들어갈 컨텐츠를 자유롭게 꾸며주세요!
+      </div>
+    </article>
+  </main>
+  <footer class="bottom-navigation">
     <a class="nav-item active" href="/"><img src="./assets/selected_home.svg" alt="Home"/>홈</a>
     <a class="nav-item" href="/calendar"><img src="./assets/calendar.svg" alt="Calendar"/>일정</a>
     <a class="nav-item" href="/history"><img src="./assets/history.svg" alt="History"/>히스토리</a>
     <a class="nav-item" href="/user"><img src="./assets/person.svg" alt="MyPage"/>마이페이지</a>
-  </nav>
+  </footer>
 </body>
 </html>

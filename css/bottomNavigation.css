@@ -1,4 +1,4 @@
-nav {
+.bottom-navigation {
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -7,6 +7,7 @@ nav {
   justify-content: center;
   align-items: center;
   column-gap: 15%;
+  background-color: white;
 }
 
 .nav-item {
