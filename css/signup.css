@@ -24,7 +24,7 @@
   margin-top: 45px;
 }
 
-.signup_container {
+.signu-container {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -32,14 +32,14 @@
   row-gap: 13px;
 }
 
-.phone_number_box {
+.phone-number-box {
   width: 100%;
   display: flex;
   justify-content: space-between;
   column-gap: 8px;
 }
 
-.auth_number_box {
+.auth-number-box {
   width: 100%;
   display: flex;
   justify-content: flex-end;
@@ -65,7 +65,7 @@
   outline: 1.3px solid rgba(0, 210, 189, 1);
 }
 
-.auth_btn {
+.auth-btn {
   height: 48px;
   padding: 0 20px;
   border-radius: 4px;
@@ -80,7 +80,7 @@
   color: rgba(255, 0, 0, 1);
 }
 
-.radio_container {
+.radio-container {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -112,7 +112,7 @@
   border: 1.3px solid rgba(0, 210, 189, 1);
 }
 
-.next_btn {
+.next-btn {
   width: 100%;
   height: 54px;
   border-radius: 10px;
