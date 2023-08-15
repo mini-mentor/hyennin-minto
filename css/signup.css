@@ -24,7 +24,7 @@
   margin-top: 45px;
 }
 
-.signu-container {
+.signup-container {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -62,7 +62,7 @@
 }
 
 .input:focus {
-  outline: 1.3px solid rgba(0, 210, 189, 1);
+  outline: 1.3px solid var(--main-color);
 }
 
 .auth-btn {
@@ -109,13 +109,13 @@
 }
 
 .radio input[type=radio]:checked + label {
-  border: 1.3px solid rgba(0, 210, 189, 1);
+  border: 1.3px solid var(--main-color);
 }
 
 .next-btn {
   width: 100%;
   height: 54px;
   border-radius: 10px;
-  background-color: rgba(0, 210, 189, 1);
+  background-color: var(--main-color);
   color: rgba(255, 255, 255, 1);
 }

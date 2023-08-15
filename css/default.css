@@ -25,6 +25,10 @@ a {
   color: black;
 }
 
-input, button {
+input, textarea, button {
   border: 0;
+}
+
+textarea {
+  resize: none;
 }
